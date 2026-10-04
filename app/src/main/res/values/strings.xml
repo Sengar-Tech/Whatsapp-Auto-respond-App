@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoReply</string>
+
+    <!-- Bottom nav labels -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_whitelist">Whitelist</string>
+    <string name="nav_template">Template</string>
+    <string name="nav_log">Log</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Dashboard -->
+    <string name="service_running">Service running</string>
+    <string name="service_stopped">Service stopped</string>
+    <string name="permission_warning">Notification access not granted. Tap to fix.</string>
+    <string name="service_warning">Service may have stopped. Tap to restart.</string>
+
+    <!-- Whitelist -->
+    <string name="whitelist_hint">Phone number (e.g. 9876543210)</string>
+    <string name="add_to_whitelist">Add to whitelist</string>
+    <string name="invalid_number">Invalid number — enter 10 digits</string>
+
+    <!-- Template -->
+    <string name="select_image">Select PNG Image</string>
+    <string name="template_text_hint">Template body text (fixed — as approved by Meta)</string>
+    <string name="template_url_hint">Website URL for button (optional)</string>
+    <string name="template_saved">Template saved</string>
+    <string name="template_text_empty">Template text cannot be empty</string>
+
+    <!-- Settings -->
+    <string name="access_token_hint">Meta Access Token</string>
+    <string name="phone_number_id_hint">Phone Number ID</string>
+    <string name="template_name_hint">Template Name</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="token_help">From Meta Business Settings → System Users → Generate Token</string>
+    <string name="phone_id_help">From Meta Developer Portal → WhatsApp → API Setup</string>
+    <string name="template_help">The name you gave your approved template in Meta</string>
+
+    <!-- Setup Guide -->
+    <string name="setup_title">Battery Settings Required</string>
+    <string name="setup_subtitle">Follow these steps to prevent the system from stopping AutoReply in the background.</string>
+    <string name="setup_done">Done — Open App</string>
+
+    <!-- Foreground service notification -->
+    <string name="service_notif_title">Auto Reply Active</string>
+    <string name="service_notif_text">Monitoring WhatsApp for new messages</string>
+</resources>

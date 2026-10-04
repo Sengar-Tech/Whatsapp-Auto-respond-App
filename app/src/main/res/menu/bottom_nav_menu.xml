@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_dashboard" android:icon="@drawable/ic_nav_dashboard" android:title="@string/nav_dashboard"/>
+    <item android:id="@+id/nav_whitelist" android:icon="@drawable/ic_nav_whitelist" android:title="@string/nav_whitelist"/>
+    <item android:id="@+id/nav_template"  android:icon="@drawable/ic_nav_template"  android:title="@string/nav_template"/>
+    <item android:id="@+id/nav_log"       android:icon="@drawable/ic_nav_log"       android:title="@string/nav_log"/>
+    <item android:id="@+id/nav_settings"  android:icon="@drawable/ic_nav_settings"  android:title="@string/nav_settings"/>
+</menu>

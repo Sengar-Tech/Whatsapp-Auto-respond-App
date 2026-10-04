@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#075E54</color>        <!-- WhatsApp dark green -->
+    <color name="primary_variant">#054D45</color>
+    <color name="secondary">#25D366</color>       <!-- WhatsApp light green -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5F5</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="status_green">#4CAF50</color>    <!-- Service running indicator -->
+    <color name="status_red">#F44336</color>      <!-- Service stopped / warning -->
+    <color name="status_orange">#FF9800</color>   <!-- Warning banner -->
+</resources>

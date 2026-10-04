@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Root layout for MainActivity.
+    FrameLayout at top fills available space — fragments are placed inside it.
+    BottomNavigationView sits at the bottom and is always visible.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Fragment container — each bottom nav tab swaps the fragment here -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- Bottom navigation bar — 5 tabs -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary"
+        app:itemIconTint="@color/on_primary"
+        app:itemTextColor="@color/on_primary"
+        app:menu="@menu/bottom_nav_menu"/>
+
+</LinearLayout>
